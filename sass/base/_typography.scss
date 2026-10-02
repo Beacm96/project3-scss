@@ -1,0 +1,13 @@
+@use '../abstracts/variables' as v;
+
+h1,
+h2,
+.footer_logo {
+  font-family: v.$font-heading;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: v.$font-body;
+  font-weight: 300;
+}

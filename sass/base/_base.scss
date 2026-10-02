@@ -1,0 +1,14 @@
+@use 'animations';
+@use 'reset';
+@use 'typography';
+@use '../abstracts/variables' as v;
+
+body {
+  font-family: v.$font-body;
+  background-color: v.$white;
+  color: v.$dark-grey;
+}
+
+main {
+  width: 100%;
+}
